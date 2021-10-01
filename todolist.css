@@ -1,0 +1,99 @@
+ *{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+html{
+    min-height: 100%;
+}
+body{
+    background-image: linear-gradient(pink,purple);
+    font-family: "poppings", sans-serif;
+    
+}
+#container1{
+    align-items: center;
+    padding-right: 80px;
+    padding-left: 80px; 
+   
+} 
+ .card{
+    background-color: gainsboro;
+    height: 550px;
+    align-items: center;
+    border-radius: 30px;
+    width: 400px;
+
+    margin: 0% auto;
+} 
+
+ .header{
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: crimson;
+    font-size: 1.5rem;
+   
+}
+
+form input{
+    border-color: wheat;
+    padding: 0.3rem;
+    font-size: 1.5rem;
+    background: #ffffff;
+    margin-left:15px;
+    width: 80%;
+    height: 70%;
+
+}
+form button{
+    border-color: wheat;
+    width: 35px;
+    height: 40px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    
+    
+    
+    
+}
+
+.todo-list{
+    list-style-type: none;
+    padding-left: 2rem;
+    margin-top: 30px;
+    font-style: normal;
+}
+
+#listall{
+    list-style-type: none;
+    padding-left: 2rem;
+    margin-top: 30px;
+    font-style: normal;
+}
+
+.todo-list li span{
+    display: flex;
+    justify-content: space-evenly ;
+    float: right;
+    padding-right: 90px;
+    color: crimson;
+    
+}
+div .Footer{
+    float: left;
+    padding-left: 2rem; 
+    margin-top: 50px;
+}
+div .button{
+    margin-left: 40px;
+    height: 30px;
+    padding:5px;
+    color:crimson;
+    text-transform:uppercase;
+    border-color: wheat;
+}   
+
